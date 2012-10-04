@@ -498,8 +498,8 @@ do
 		grep CS_VERSION globals.h | cut -d\" -f2
 		break
 	;;
-	'-r'|'--oscam-revision')
-		(svnversion -n . 2>/dev/null || printf 0) | sed 's/.*://; s/[^0-9]*$//; s/^$/0/'
+	'-r'|'--oscam-revision')	
+		(git svn info | grep 'Revision: ' | grep -o '[0-9]\+')
 		break
 	;;
 	'-O'|'--detect-osx-sdk-version')

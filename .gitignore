@@ -6,6 +6,7 @@ oscam-ostype.h
 
 # generated binaries
 Distribution/oscam-*
+Distribution/list_smargo-*
 
 # backup/swap file for vi
 *~

@@ -14,12 +14,12 @@
 #endif
 
 #ifndef WITH_SSL
-//#define WITH_SSL
+#define WITH_SSL
 #endif
 
 #ifndef HAVE_DVBAPI
 #if defined(__linux__)
-#define HAVE_DVBAPI
+//#define HAVE_DVBAPI
 #endif
 #endif
 
@@ -64,11 +64,11 @@
 #endif
 
 #ifndef MODULE_CAMD35
-#define MODULE_CAMD35
+//#define MODULE_CAMD35
 #endif
 
 #ifndef MODULE_CAMD35_TCP
-#define MODULE_CAMD35_TCP
+//#define MODULE_CAMD35_TCP
 #endif
 
 #ifndef MODULE_NEWCAMD
@@ -87,15 +87,15 @@
 
 
 #ifndef MODULE_GBOX
-#define MODULE_GBOX
+//#define MODULE_GBOX
 #endif
 
 #ifndef MODULE_RADEGAST
-#define MODULE_RADEGAST
+//#define MODULE_RADEGAST
 #endif
 
 #ifndef MODULE_SERIAL
-#define MODULE_SERIAL
+//#define MODULE_SERIAL
 #endif
 
 #ifndef MODULE_CONSTCW
@@ -103,7 +103,7 @@
 #endif
 
 #ifndef MODULE_PANDORA
-#define MODULE_PANDORA
+//#define MODULE_PANDORA
 #endif
 
 #ifndef MODULE_GHTTP
@@ -215,7 +215,7 @@
 #endif // WITH_CARDREADER
 
 #ifndef CS_CACHEEX
-#define CS_CACHEEX
+//#define CS_CACHEEX
 #endif
 
 #endif //OSCAM_CONFIG_H_

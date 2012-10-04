@@ -53,6 +53,10 @@ typedef unsigned char uchar;
 #define SOCKADDR sockaddr_in
 #endif
 
+#ifndef SOL_TCP
+# define SOL_TCP IPPROTO_TCP
+#endif
+
 #ifndef NO_ENDIAN_H
  #if defined(__APPLE__)
     #include <machine/endian.h>
